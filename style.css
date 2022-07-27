@@ -1,0 +1,280 @@
+body{
+    padding:0;
+    margin: 0;
+  }
+  .nav{
+    width: 100%;
+    height: 10vh;
+    padding-top:20px
+  }
+  
+  .nav ul{
+    list-style-type: none;
+  }
+  
+  .nav ul li{
+    float: right;
+    margin-right: 70px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  #heading{
+    float: left;
+    font-size: 30;
+  }
+  
+  .first-section{
+    background: url(https://travel-diary-complete.webdevdev1.repl.co/cn.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  hr{
+    height: 0.4px;
+    background: rgb(228, 228, 228);
+    border:none;
+  }
+
+  .content{
+    text-align: center;
+    color: white;
+    padding-top: 25vh;
+    font-size: x-large;
+  }
+
+  #explore{
+    padding: 30px 30px;
+    background: transparent;
+    border-color: white;
+    color: white;
+    border-radius: 20px;
+  }
+
+  .preloader{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+  }
+  
+  body{
+    margin: 0;
+    padding:0;
+  }
+  
+  @keyframes rotatemycircle{
+    from{
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    to{
+      transform: scale(1.2);
+      opacity: 1;
+    }
+  }
+  
+  .L{
+    color: white;
+    font-size: 60px;
+    animation: rotatemycircle 0.5s ease infinite alternate;
+  }
+  
+  .letters{
+    display: flex;
+    letter-spacing: 50px;
+  }
+  
+  .O{
+    color: white;
+    font-size: 60px;
+    animation: rotatemycircle 1s ease infinite alternate;
+  }
+  .A{
+    color: white;
+    font-size: 60px;
+    animation: rotatemycircle 1.5s ease infinite alternate;
+  }
+  .D{
+    color: white;
+    font-size: 60px;
+    animation: rotatemycircle 2s ease infinite alternate;
+  }
+  .I{
+    color: white;
+    font-size: 60px;
+    animation: rotatemycircle 3.5s ease infinite alternate;
+  }
+  .N{
+    color: white;
+    font-size: 60px;
+    animation: rotatemycircle 4s ease infinite alternate;
+  }
+  .G{
+    color: white;
+    font-size: 60px;
+    animation: rotatemycircle 4.5s ease infinite alternate;
+  }
+
+  .second-section{
+    width: 100%;
+    height: 100vh;
+    background: rgb(55, 55, 55);
+  }
+
+  .second-section h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+  }
+
+  .second-section .photos{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .second-section .photos img{
+    width: 400px;
+    height: 500px;
+    cursor: pointer;
+  }
+
+  .second-section .photos img:hover{
+    filter: grayscale(100%);
+  }
+
+  .social{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(55, 55, 55);
+  }
+  
+  .social img{
+    width: 100px;
+  }
+
+  .clouds{
+    width: 100%;
+    margin-right: 10%;
+    margin-left: 10%;
+    justify-content: space-evenly;
+  }
+
+  .clouds img{
+    width: 10%;
+  }
+
+  @keyframes movecloud1{
+    from{
+      transform: translateY(0);
+      opacity: 1;
+    }
+    to{
+      transform: translateY(-1000px);
+      opacity: 0;
+    }
+  }
+
+  #cloud1{
+    animation: movecloud1 5s ease infinite;
+  }
+
+  @keyframes movecloud2{
+    from{
+      transform: translateY(0);
+      opacity: 1;
+    }
+    to{
+      transform: translateY(-2000px);
+      opacity: 0;
+    }
+  }
+
+  #cloud2{
+    animation: movecloud2 6s ease infinite;
+  }
+
+  @keyframes movecloud3{
+    from{
+      transform: translateY(0);
+      opacity: 1;
+    }
+    to{
+      transform: translateY(-500px);
+      opacity: 0;
+    }
+  }
+
+  #cloud3{
+    animation: movecloud3 8s ease infinite;
+  }
+
+  @keyframes movecloud4{
+    from{
+      transform: translateY(0);
+      opacity: 1;
+    }
+    to{
+      transform: translateY(-1000px);
+      opacity: 0;
+    }
+  }
+
+  #cloud4{
+    animation: movecloud4 5s ease infinite;
+  }
+
+  @keyframes movecloud5{
+    from{
+      transform: translateY(0);
+      opacity: 1;
+    }
+    to{
+      transform: translateY(-2000px);
+      opacity: 0;
+    }
+  }
+
+  #cloud5{
+    animation: movecloud5 6s ease infinite;
+  }
+
+  @keyframes movecloud6{
+    from{
+      transform: translateY(0);
+      opacity: 1;
+    }
+    to{
+      transform: translateY(-500px);
+      opacity: 0;
+    }
+  }
+
+  #cloud6{
+    animation: movecloud6 8s ease infinite;
+  }
+  
+  @keyframes movecloud7{
+    from{
+      transform: translateY(0);
+      opacity: 1;
+    }
+    to{
+      transform: translateY(-1000px);
+      opacity: 0;
+    }
+  }
+
+  #cloud7{
+    animation: movecloud7 5s ease infinite;
+  }
